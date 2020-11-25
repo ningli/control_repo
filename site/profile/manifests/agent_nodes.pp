@@ -1,5 +1,5 @@
 ckass profile::agent_nodes {
   include dockeragent
-  dockeragent::nodes {'web.puppet.vm':}
-  dockeragent::nodes {'db.puppet.vm':}
+  dockeragent::node {'web.puppet.vm':}
+  dockeragent::node {'db.puppet.vm':}
 }
